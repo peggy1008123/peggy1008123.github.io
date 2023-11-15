@@ -1,0 +1,339 @@
+a:hover, a:visited, a:link, a:active {
+text-decoration: none;
+}
+
+body{
+}
+.fw{
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  height: 60px;
+}
+.footer_text{
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+
+}
+
+.body_container{
+width: 100%;
+}
+
+.header_container{
+  width: 100%;
+  background-color: black;
+  position:sticky;
+  top:0;
+  z-index: 30;
+
+}
+
+.nav_link{
+  font-family: 'Allerta Stencil', sans-serif;
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.nav_link:hover{
+    -webkit-text-stroke: 0.2px white;
+    -webkit-text-fill-color: black;
+    transition: 1s;
+}
+
+.logo{
+  font-family: 'Aclonica', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 6.72px;
+  font-style: italic;
+  color: white;
+  transition: 0.3s;
+}
+
+.logo:hover{
+  color: white;
+  text-shadow: 0.1em 0.1em gray;
+  transition: 0.3s;
+}
+
+.intro{
+  display: flex;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.column{
+  margin: 40px;
+}
+
+.myname{
+  margin-bottom: 10px;
+  font-size: 60px;
+  font-family: 'Allerta Stencil', sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.sentence{
+  font-size: 20px;
+  color: #5F5F5F;
+  width: 600px;
+  margin-right: 50px;
+}
+
+.triangles{
+  margin-top: 60px;
+  width: 450px;
+}
+
+svg{
+  overflow: visible;
+}
+
+.triangle1{
+  fill: #000;
+  stroke: #000;
+  stroke-width: 10;
+  }
+
+.move{
+    animation: 1s linear 0s infinite alternate move;
+}
+.move2{
+    animation: 1.5s linear 0s infinite alternate move;
+
+}
+.move3{
+    animation: 0.8s linear 0s infinite alternate move;
+}
+
+@keyframes move {
+  from {
+    /* pushes the sun down past the viewport */
+    transform: translateY(0px);
+  }
+  to {
+    /* returns the sun to its default position */
+    transform: translateY(20px);
+    }
+}
+
+.interaction_right{
+  position: relative;
+  border-radius: .4em;
+  padding: 30px;
+  border: solid 2px;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #000;
+  z-index: 10;
+
+}
+.interaction_right:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-left-color: #000;
+  border-right: 0;
+  margin-top: -20px;
+  margin-right: -30px;
+}
+.triangle1{
+  fill: #000;
+  stroke: #000;
+  stroke-width: 10;
+  transform: rotate(40.021deg);
+}
+.triangle2{
+  fill: #D4D4D4;
+  stroke: #D4D4D4;
+  stroke-width: 10;
+  transform: rotate(10.998deg);
+}
+
+.triangle3{
+  fill: #5F5F5F;
+  stroke: #5F5F5F;
+  stroke-width: 10;
+  transform: rotate(-49.021deg);
+}
+
+.interaction{
+  display: flex;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.input{
+  opacity: 0.9;
+  outline: none;
+  border-color: rgba(116, 110, 108, 0.5);
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 1px;
+  font-size: 18px;
+  padding: 8px 10px;
+}
+
+.dog{
+  position:absolute;
+  width: 300px;
+  z-index: 10;
+}
+
+.myworksbg{
+  margin-top: 0px;
+  width: auto;
+  height: 980px;
+  background-color: #D9D9D9 ;
+}
+
+.interaction_btn{
+  width: 200px;
+  margin-left: 50px;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.click_text{
+  font-size: 20px;
+  font-family: 'Allerta Stencil', sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.click_text:hover{
+  -webkit-text-stroke: 0.2px black;
+  -webkit-text-fill-color: white;
+  cursor: pointer;
+}
+
+.click{
+  padding-top: 5px;
+}
+
+.click_style{
+  margin-bottom: 10px; 
+  justify-content: space-between;
+  transition-duration: 0.3s;
+}
+
+.click_style:hover{
+  justify-content: normal;
+}
+
+.dog_username{
+  text-align: center;
+  width: 300px;
+  position: relative;
+  top: 125%;
+  z-index: 20;
+}
+
+.username{
+  text-align: center;
+  width: 300px;
+  position: relative;
+  margin-top: 20px;
+  top: 120%;
+  z-index: 20;
+  font-size: 20px;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-weight: bold;
+}
+
+.before_username{
+  font-size: 20px;
+  display: none;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-weight: bold;
+}
+
+#NewStringBox{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-weight: bold;
+}
+
+.btn_home_go{
+  width: 25px;
+  margin-top: 10px;
+}
+.userinput{
+  display: flex;
+}
+
+.mywork_title{
+  margin-left: 20px;
+  font-size: 50px;
+  font-family: 'Allerta Stencil', sans-serif;
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: black;
+  margin-bottom: 40px;
+}
+
+.myworkcontainer{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10%;
+}
+
+.project_block{
+  width: 550px;
+  height: 600px;
+  background-color: white;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.project_block:hover{
+  color: gray;
+  box-shadow:  0.5em 0.5em dimgray;
+  transition: 0.3s;
+}
+
+.project_image{
+  margin: 20px;
+  width: 510px;
+  height: 330px;
+  border-radius: 8px 8px 8px 8px ;
+}
+
+#mywork{
+  scroll-margin-top: 100px;
+}
+
+.project_rowblock{
+  width: 1150px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+}

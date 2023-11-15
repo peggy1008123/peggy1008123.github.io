@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Allerta+Stencil&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="./images/logo.jpg">
+    <title>Pei-Chi Lin Portfolio</title>
+  </head>
+  <body>
+    <header class="header_container">
+      <div class="navigation">
+        <a href="./index.html" class="logo">PEI</a>
+        <div class="navigation-items">
+            <a href="./index.html" class="nav_link">WORK</a>
+            <a href="./index.html" class="nav_link">ABOUT</a>
+        </div>
+      </div>
+    </header>
+    <div class="body_container">
+      <div class="intro">
+        <div class="column">
+          <div class="myname">Hi, I'm Pei-Chi.</div>
+          <div class="sentence">A digital technology design graduate from National Taipei University in Taiwan, blending a solid foundation in front-end development with a flair for UI/UX design.<br>I believe that the goal of design is to build solutions that make people happy.</div>  
+        </div>
+        <div class="triangles">
+          <svg class="move" width="150" height="140" viewBox="-50 -50 300 300">
+            <polygon class="triangle1" stroke-linejoin="round" points="100,0 0,200 200,200"/>
+          </svg>
+          <svg class="move2" width="120" height="110" viewBox="-50 -50 300 300">
+            <polygon class="triangle2" stroke-linejoin="round" points="100,0 0,200 200,200"/>
+          </svg>
+          <svg class="move3" width="150" height="140" viewBox="-50 -50 300 300">
+            <polygon class="triangle3" stroke-linejoin="round" points="100,0 0,200 200,200"/>
+          </svg>
+        </div>
+      </div>
+      <div class="interaction">
+        <div class="interaction_btn">
+          <div class="row click_style">
+            <div class="click_text">VIEW MY RESUME</div>
+            <svg class="click" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M4 0l16 12.279-6.951 1.17 4.325 8.817-3.596 1.734-4.35-8.879-5.428 4.702z"/></svg>
+          </div>
+          <div class="row click_style" onclick="tomywork()">
+            <div class="click_text">EXPLORE MY WORK</div>
+            <svg class="click" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M4 0l16 12.279-6.951 1.17 4.325 8.817-3.596 1.734-4.35-8.879-5.428 4.702z"/></svg>
+          </div>
+        </div>
+        <div class="interaction_right">
+          <div class="ques">Hello, how should I call you?</div>
+          <div class="userinput">
+            <input class="input" maxlength="9" id="StringTextBox" placeholder="Enter you name">
+            <svg class="btn_home_go" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m2.009 12.002c0-5.517 4.48-9.997 9.998-9.997s9.998 4.48 9.998 9.997c0 5.518-4.48 9.998-9.998 9.998s-9.998-4.48-9.998-9.998zm8.211-4.843c-.141-.108-.3-.157-.456-.157-.389 0-.755.306-.755.749v8.501c0 .445.367.75.755.75.157 0 .316-.05.457-.159 1.554-1.203 4.199-3.252 5.498-4.258.184-.142.29-.36.29-.592 0-.23-.107-.449-.291-.591z" fill-rule="nonzero"/></svg>  
+          </div>
+        </div>
+        <div class="dog_content">
+          <img class="dog" src="images/dog.png">
+          <div class="dog_username">
+            <div class="before_username">Welcome!</div>
+            <div id="NewStringBox"></div>
+          </div>
+          <div class="username">Welcome! </div>
+        </div>
+        
+        <div class="interback"></div>
+      </div>
+      <div class="myworksbg" >
+        <div class="myworkcontainer">
+          <div class="mywork_title" id="mywork">MY WORK</div>
+          <div class="row project_rowblock">
+            <div class="project_block">
+            <img src="./images/9knights.jpg" class="project_image">
+            </div>
+            <div class="project_block">
+
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <footer class="fw">
+        <div class="footer_text">Copyright 2023 - Pei-Chi Lin All rights reserved.
+        </div>
+      </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</html>
