@@ -50,7 +50,7 @@ width: 100%;
 .nav_link:hover{
     -webkit-text-stroke: 0.2px white;
     -webkit-text-fill-color: black;
-    transition: 1s;
+    color: black;
 }
 
 .logo{
@@ -290,7 +290,7 @@ svg{
 }
 
 .mywork_title{
-  margin-left: 20px;
+  margin-left: 25px;
   font-size: 50px;
   font-family: 'Allerta Stencil', sans-serif;
   -webkit-text-stroke: 1px black;
@@ -302,12 +302,12 @@ svg{
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10%;
+  padding-top: 12%;
 }
 
 .project_block{
   width: 550px;
-  height: 600px;
+  height: 560px;
   background-color: white;
   margin-bottom: 50px;
   border-radius: 10px;
@@ -315,7 +315,6 @@ svg{
 }
 
 .project_block:hover{
-  color: gray;
   box-shadow:  0.5em 0.5em dimgray;
   transition: 0.3s;
 }
@@ -323,7 +322,7 @@ svg{
 .project_image{
   margin: 20px;
   width: 510px;
-  height: 330px;
+  height: 350px;
   border-radius: 8px 8px 8px 8px ;
 }
 
@@ -336,4 +335,37 @@ svg{
   margin-right: auto;
   margin-left: auto;
   justify-content: space-between;
+}
+
+.project_name{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+  color: black;
+}
+.tag{
+  width: auto;
+  height: 40px;
+  background-color: #D9D9D9;
+  color: black;
+  font-weight: 600;
+  margin: 10px;
+  text-align: center;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  margin-left: 0px;
+}
+
+.project_tag{
+  margin-left: 20px;
+  display: flex;
+}
+
+.project_describe{
+  font-size: 20px;
+  margin: 10px;
+  margin-left: 20px;
+  color: #5F5F5F;
 }
