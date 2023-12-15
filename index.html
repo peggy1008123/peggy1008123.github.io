@@ -13,12 +13,12 @@
     <title>Pei-Chi Lin Portfolio</title>
   </head>
   <body>
-    <header class="header_container">
+    <header class="header_container" id="main-header">
       <div class="navigation">
         <a href="./index.html" class="logo">PEI</a>
         <div class="navigation-items">
             <a href="./index.html" class="nav_link">WORK</a>
-            <a href="./index.html" class="nav_link">ABOUT</a>
+            <a href="./about.html" class="nav_link">ABOUT</a>
         </div>
       </div>
     </header>
@@ -26,7 +26,7 @@
       <div class="intro">
         <div class="column">
           <div class="myname">Hi, I'm Pei-Chi.</div>
-          <div class="sentence">A digital technology design graduate from National Taipei University in Taiwan, blending a solid foundation in front-end development with a flair for UI/UX design.<br>I believe that the goal of design is to build solutions that make people happy.</div>  
+          <div class="sentence">A digital technology design graduate from National Taipei University in Taiwan, blending a solid foundation in front-end development with a flair for UI/UX design.<br><br>I believe that the goal of design is to build solutions that make people happy.</div>  
         </div>
         <div class="triangles">
           <svg class="move" width="150" height="140" viewBox="-50 -50 300 300">
@@ -43,7 +43,7 @@
       <div class="interaction">
         <div class="interaction_btn">
           <div class="row click_style">
-            <div class="click_text">VIEW MY RESUME</div>
+            <a href="./pdf/Resume_PEI-CHI LIN.pdf" target="_blank" class="click_text">VIEW MY RESUME</a>
             <svg class="click" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M4 0l16 12.279-6.951 1.17 4.325 8.817-3.596 1.734-4.35-8.879-5.428 4.702z"/></svg>
           </div>
           <div class="row click_style" onclick="tomywork()">
@@ -73,20 +73,25 @@
         <div class="myworkcontainer">
           <div class="mywork_title" id="mywork">MY WORK</div>
           <div class="row project_rowblock">
-            <a href="./9knights.html"  class="project_block">
+            <a href="./project_9knights.html"  class="project_block">
               <img src="./images/9knights.jpg" class="project_image">
               <div class="project_name">9Knights</div>
               <div class="project_describe">Join motor enthusiasts and take a tour of your journey</div>
               <div class="project_tag">
-                <div class="tag">App</div>
-                <div class="tag">UI/UX Design</div>
+                <div class="tag">#App</div>
+                <div class="tag">#UI/UX Design</div>
               </div>
             </a>
-            <div class="project_block">
-
-            </div>
+            <a href="./project_9knights.html"  class="project_block">
+              <img src="./images/9knights.jpg" class="project_image">
+              <div class="project_name">9Knights</div>
+              <div class="project_describe">Join motor enthusiasts and take a tour of your journey</div>
+              <div class="project_tag">
+                <div class="tag">#App</div>
+                <div class="tag">#UI/UX Design</div>
+              </div>
+            </a>
           </div>
-          
         </div>
       </div>
       <footer class="fw">

@@ -1,0 +1,133 @@
+.vertical-menu {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
+
+.vertical-menu ul {
+  list-style: none;
+}
+
+.vertical-menu li {
+  margin-bottom: 10px;
+}
+
+.vertical-menu a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  transition: 0.3s ease-in-out;
+
+}
+.vertical-menu a:hover{
+  color: lightgray;
+  transition: 0.3s ease-in-out;
+}
+/* 激活状态样式 */
+.vertical-menu a.active {
+  font-weight: bold !important;
+  /* 其他样式 */
+}
+/* 初始隐藏和渐变效果 */
+#vertical-menu {
+  opacity: 0; /* 初始透明度为0 */
+  transition: opacity 0.2s ease-in-out; /* 添加透明度过渡效果 */
+}
+
+/* 显示导航栏 */
+#vertical-menu.show-menu {
+  opacity: 1; /* 显示时透明度为1 */
+}
+#main-header {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* 添加背景色的样式 */
+#main-header.scrolled {
+  background-color: white; /* 设置滚动后的背景色 */
+  opacity: 90%;
+  /* 其他样式 */
+}
+.project_basic{
+  justify-content: space-between;
+  height: 190px;
+  margin-top: 50px;
+  background-color: #fff;
+  border-radius: .4em;
+  border: solid 2px;
+    max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.basic_title{
+  width: 350px;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 40px;
+}
+.body_container{
+  width: 100%;
+  background-color: #fff;
+}
+
+.overview{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content_littletitle{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Allerta Stencil', sans-serif;
+  width: 40%;
+}
+
+.overview_content{
+  color: #5F5F5F;
+  margin-top: 20px;
+  line-height: 25px;
+
+}
+.horizontal-line {
+  border-top: 1px solid grey; /* 设置顶部边框为实线，颜色为黑色 */
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.research_bg{
+  background-color: #f4f4f4;
+  height: 5000px;
+}
+.research{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content_title{
+  font-size: 80px;
+  font-family: 'Allerta Stencil', sans-serif;
+  -webkit-text-stroke: 0.5px black;
+  -webkit-text-fill-color: white;
+}
+.overview_box{
+  width: 40%;
+  margin: 40px;
+}
+.basic_content{
+  font-family: '', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 20px;  
+  color: #5F5F5F;
+}

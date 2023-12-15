@@ -6,12 +6,14 @@ body{
 }
 .fw{
   align-items: center;
-  background-color: #000;
+  background-color: #D9D9D9;
   display: flex;
   height: 60px;
 }
 .footer_text{
-  color: white;
+  color: gray;
+  font-size: 15px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -39,18 +41,36 @@ width: 100%;
   z-index: 30;
 
 }
+/* 定义 header 的初始样式 */
+#main-header {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
 
+/* 添加背景色的样式 */
+#main-header.scrolled {
+  background-color: white; /* 设置滚动后的背景色 */
+  opacity: 90%;
+  /* 其他样式 */
+}
 .nav_link{
   font-family: 'Allerta Stencil', sans-serif;
   padding: 20px;
   font-size: 16px;
-  color: white;
+  color: black;
+  font-weight: bolder;
+  transition: 0.3s ease-in-out;
+
 }
 
 .nav_link:hover{
-    -webkit-text-stroke: 0.2px white;
-    -webkit-text-fill-color: black;
-    color: black;
+    -webkit-text-stroke: 0.2px black;
+    -webkit-text-fill-color: white;
+    color: inherit; 
+    transition: 0.3s ease-in-out;
 }
 
 .logo{
@@ -60,13 +80,14 @@ width: 100%;
   line-height: normal;
   letter-spacing: 6.72px;
   font-style: italic;
-  color: white;
+  color: black;
   transition: 0.3s;
+  transition: 0.5s ease-in-out;
 }
 
 .logo:hover{
-  color: white;
-  text-shadow: 0.1em 0.1em gray;
+  color: black;
+  text-shadow: 0.1em 0.1em lightgray;
   transition: 0.3s;
 }
 
@@ -75,7 +96,8 @@ width: 100%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  margin-top: 40px;
+  padding-top: 100px;
 }
 
 .column{
@@ -227,7 +249,7 @@ svg{
   font-weight: bold;
 }
 
-.click_text:hover{
+.click_style:hover .click_text{
   -webkit-text-stroke: 0.2px black;
   -webkit-text-fill-color: white;
   cursor: pointer;
@@ -295,7 +317,7 @@ svg{
   font-family: 'Allerta Stencil', sans-serif;
   -webkit-text-stroke: 1px black;
   -webkit-text-fill-color: black;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .myworkcontainer{
@@ -313,6 +335,13 @@ svg{
   border-radius: 10px;
   transition: 0.3s;
 }
+.project_rowblock{
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.project_rowblock.active {
+  opacity: 1;
+}
 
 .project_block:hover{
   box-shadow:  0.5em 0.5em dimgray;
@@ -325,7 +354,15 @@ svg{
   height: 350px;
   border-radius: 8px 8px 8px 8px ;
 }
+.content {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
 
+/* 當內容顯示時透明度為 1 */
+.content.active {
+  opacity: 1;
+}
 #mywork{
   scroll-margin-top: 100px;
 }
@@ -369,3 +406,19 @@ svg{
   margin-left: 20px;
   color: #5F5F5F;
 }
+
+.project_cover{
+  background-attachment: fixed;
+  width: 100%;
+  height: 70vh;
+  background-image: url('../images/cover_9Knights.jpg'); /* 图片相对于 CSS 文件的路径 */
+  background-size: cover;
+  z-index: -1;
+  background-position: center -10vh; /* 负的垂直值使背景图像向上移动 */
+}
+.project_content{
+  position: relative;
+  z-index: 1;
+}
+
+
