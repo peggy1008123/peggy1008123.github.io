@@ -113,9 +113,10 @@ width: 100%;
 }
 
 .sentence{
-  font-size: 20px;
+  font-size: 18px;
   color: #5F5F5F;
   width: 600px;
+  padding-right: 60px;
   margin-right: 50px;
 }
 
@@ -383,7 +384,7 @@ svg{
 .tag{
   width: auto;
   height: 40px;
-  background-color: #D9D9D9;
+  background-color: #f4f4f4;
   color: black;
   font-weight: 600;
   margin: 10px;
@@ -393,6 +394,7 @@ svg{
   padding-right: 10px;
   border-radius: 8px;
   margin-left: 0px;
+  line-height: 28px;
 }
 
 .project_tag{

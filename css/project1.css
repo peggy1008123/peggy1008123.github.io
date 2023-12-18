@@ -17,6 +17,7 @@
 .vertical-menu a {
   text-decoration: none;
   color: #333;
+  font-family: 'Allerta Stencil', sans-serif;
   display: block;
   transition: 0.3s ease-in-out;
 
@@ -90,7 +91,7 @@
   font-size: 30px;
   font-weight: bold;
   font-family: 'Allerta Stencil', sans-serif;
-  width: 40%;
+  width: 50%;
 }
 
 .overview_content{
@@ -115,11 +116,15 @@
   margin-right: auto;
 }
 .content_title{
-  font-size: 80px;
+  font-size: 110px;
   font-family: 'Allerta Stencil', sans-serif;
-  -webkit-text-stroke: 0.5px black;
-  -webkit-text-fill-color: white;
+  color: #f4f4f4;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 125px;
 }
+
 .overview_box{
   width: 40%;
   margin: 40px;
@@ -130,4 +135,52 @@
   font-weight: 400;
   padding-top: 20px;  
   color: #5F5F5F;
+}
+
+.overview_image{
+  height: 600px;
+  padding-left: 50px;
+}
+
+.overview_imgbox{
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 80px;
+}
+
+.overview_imgwidth{
+  width: 50%;
+}
+
+.overview_imgcon{
+  width: 80%;
+  margin-top: 20px;
+  color: #5F5F5F;
+}
+
+.overview_imgintro{
+  margin-top: 40%;
+}
+.mr-10{
+  padding-left: 0px;
+}
+
+.research_contentbox{
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.research_intro{
+  color: #5f5f5f;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.research_survey{
+  padding-top: 60px;
+}
+.percent_block{
+  width: 400px;
 }
