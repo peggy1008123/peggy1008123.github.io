@@ -28,7 +28,7 @@
 }
 /* 激活状态样式 */
 .vertical-menu a.active {
-  font-weight: bold !important;
+  font-weight: bolder !important;
   /* 其他样式 */
 }
 /* 初始隐藏和渐变效果 */
@@ -108,7 +108,7 @@
 }
 .research_bg{
   background-color: #f4f4f4;
-  height: 5000px;
+  padding-bottom: 80px;
 }
 .research{
   max-width: 1200px;
@@ -118,11 +118,11 @@
 .content_title{
   font-size: 110px;
   font-family: 'Allerta Stencil', sans-serif;
-  color: #f4f4f4;
+  color: #D9D9D9;
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  height: 125px;
+  height: 125.5px;
 }
 
 .overview_box{
@@ -183,4 +183,241 @@
 }
 .percent_block{
   width: 400px;
+  margin-top: 100px;
+}
+
+.percent{
+  width: 200px;
+  height: 115px;
+  background-color: #D9D9D9;
+  text-align: center;
+  font-size: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.percent_text{
+  color: #5F5F5F;
+  width: 280px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.research_pg_block{
+  width: 49%;
+
+}
+
+.research_pg{
+  margin-top: 100px;
+  border-radius: .4em;
+  border: solid 2px;
+  max-width: 1200px;
+  background-color: #fff;
+  justify-content: space-around;
+}
+
+.research_pg_title{
+  font-weight: bold;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 20px;
+  margin: 20px;
+  margin-bottom: -10px;
+}
+
+.vertical-line {
+  margin: 5px;
+  border-left: 2px solid black; /* 或者使用 border-right，根据需要选择方向 */
+  height: auto; /* 线条的高度 */
+}
+.research_pg_content{
+  margin: 20px;  
+  color: #5F5F5F;
+}
+
+.research_com_title{
+  text-align: center;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  margin-right: 30px;
+}
+
+.slideshow {
+  position: relative;
+  width: 900px; /* 图片宽度 */
+  height: 500px; /* 图片高度 */
+  overflow: hidden;
+}
+
+.slideshow img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out; /* 添加淡入淡出效果 */
+}
+
+.slideshow img.active {
+  opacity: 1;
+}
+
+.com_image{
+  width: 900px;
+  height: 500px;
+}
+.com_slide{
+  max-width: 1200px;
+  justify-content: center;
+}
+
+.arrow{
+  width: 100px;
+  cursor: pointer;
+}
+
+.com_result_content{
+  margin-top: 20px;
+  color: #5F5F5F;
+}
+
+.com_result{
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  padding: 80px;
+}
+
+.content_title_3{
+  font-size: 110px;
+  font-family: 'Allerta Stencil', sans-serif;
+  color: #fff;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100px;
+  line-height: 114px;
+  background-color: #f4f4f4;
+}
+.content_title_bg{
+  width: 100%;
+  background-color: #f4f4f4;
+}
+.define_persona_img{
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; 
+}
+
+.define_block{
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+}
+.define_pg_block{
+  width: 32.5%;
+}
+
+.define_pg{
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.define_content{
+  color: #5F5F5F;
+  margin-bottom: 40px;
+  width: 50%;
+}
+.IA_img{
+  width: 600px;
+  border-radius: 10px;
+}
+.ideate_block{
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.IA_block{
+  padding-top: 80px;
+  justify-content: space-between;
+  width: 1200px;
+  margin-left: 0px;
+}
+.IA_content{
+  width: 40%;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+.IA_title{
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+.IA_small{
+   font-size: 16px;
+   font-family: 'Allerta Stencil', sans-serif;
+   color: #5F5F5F;
+   margin: 2px;
+}
+.gray{
+  color: #5f5f5f;
+}
+.homepage_img{
+  width: 1200px;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+.create_img{
+  width: 800px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.create_content{
+  width: 31%;
+  margin-top: 4%;
+  margin-left: 3%;
+}
+.create_block{
+  margin-left: 0px;
+}
+.wireframe{
+  width: 800px;
+  margin-top: 80px;
+}
+.wire_content{
+  width: 34%;
+  margin-top: 20%;
+  padding-right: 4%;
+}
+.result_bg{
+  background-color: #D9D9D9;
+}
+.result_block{
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.result_con{
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  padding: 60px;
 }

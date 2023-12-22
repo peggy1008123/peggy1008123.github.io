@@ -52,3 +52,32 @@ window.addEventListener('scroll', function() {
     verticalMenu.classList.remove('show-menu');
   }
 });
+
+let currentSlide = 0;
+const slides = document.querySelectorAll('.slideshow img');
+
+function showSlide(n) {
+  slides.forEach(slide => slide.classList.remove('active'));
+  slides[n].classList.add('active');
+}
+
+function prevSlide() {
+  if (currentSlide > 0) {
+    currentSlide--;
+  } else {
+    currentSlide = slides.length - 1;
+  }
+  showSlide(currentSlide);
+}
+
+function nextSlide() {
+  if (currentSlide < slides.length - 1) {
+    currentSlide++;
+  } else {
+    currentSlide = 0;
+  }
+  showSlide(currentSlide);
+}
+
+// 初始显示第一张图片
+showSlide(currentSlide);
