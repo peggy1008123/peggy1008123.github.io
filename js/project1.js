@@ -53,31 +53,60 @@ window.addEventListener('scroll', function() {
   }
 });
 
-let currentSlide = 0;
-const slides = document.querySelectorAll('.slideshow img');
+let currentSlide1 = 0;
+const slides1 = document.querySelectorAll('.slideshow1 img');
 
-function showSlide(n) {
-  slides.forEach(slide => slide.classList.remove('active'));
-  slides[n].classList.add('active');
+function showSlide1(n) {
+  slides1.forEach(slide => slide.classList.remove('active'));
+  slides1[n].classList.add('active');
 }
 
-function prevSlide() {
-  if (currentSlide > 0) {
-    currentSlide--;
+function prevSlide1() {
+  if (currentSlide1 > 0) {
+    currentSlide1--;
   } else {
-    currentSlide = slides.length - 1;
+    currentSlide1 = slides1.length - 1;
   }
-  showSlide(currentSlide);
+  showSlide1(currentSlide1);
 }
 
-function nextSlide() {
-  if (currentSlide < slides.length - 1) {
-    currentSlide++;
+function nextSlide1() {
+  if (currentSlide1 < slides1.length - 1) {
+    currentSlide1++;
   } else {
-    currentSlide = 0;
+    currentSlide1 = 0;
   }
-  showSlide(currentSlide);
+  showSlide1(currentSlide1);
 }
 
 // 初始显示第一张图片
-showSlide(currentSlide);
+showSlide1(currentSlide1);
+
+let currentSlide2 = 0;
+const slides2 = document.querySelectorAll('.slideshow2 img');
+
+function showSlide2(n) {
+  slides2.forEach(slide => slide.classList.remove('active'));
+  slides2[n].classList.add('active');
+}
+
+function prevSlide2() {
+  if (currentSlide2 > 0) {
+    currentSlide2--;
+  } else {
+    currentSlide2 = slides2.length - 1;
+  }
+  showSlide2(currentSlide2);
+}
+
+function nextSlide2() {
+  if (currentSlide2 < slides2.length - 1) {
+    currentSlide2++;
+  } else {
+    currentSlide2 = 0;
+  }
+  showSlide2(currentSlide2);
+}
+
+// 初始显示第一张图片
+showSlide2(currentSlide2);

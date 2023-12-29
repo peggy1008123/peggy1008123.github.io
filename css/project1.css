@@ -16,7 +16,7 @@
 
 .vertical-menu a {
   text-decoration: none;
-  color: #333;
+  color: #636363;
   font-family: 'Allerta Stencil', sans-serif;
   display: block;
   transition: 0.3s ease-in-out;
@@ -29,6 +29,7 @@
 /* 激活状态样式 */
 .vertical-menu a.active {
   font-weight: bolder !important;
+  color: #000;
   /* 其他样式 */
 }
 /* 初始隐藏和渐变效果 */
@@ -239,6 +240,7 @@
 .research_pg_content{
   margin: 20px;  
   color: #5F5F5F;
+  font-size: 14px;
 }
 
 .research_com_title{
@@ -251,14 +253,14 @@
   margin-right: 30px;
 }
 
-.slideshow {
+.slideshow1 {
   position: relative;
   width: 900px; /* 图片宽度 */
   height: 500px; /* 图片高度 */
   overflow: hidden;
 }
 
-.slideshow img {
+.slideshow1 img {
   position: absolute;
   left: 0;
   top: 0;
@@ -266,10 +268,27 @@
   transition: opacity 0.5s ease-in-out; /* 添加淡入淡出效果 */
 }
 
-.slideshow img.active {
+.slideshow1 img.active {
   opacity: 1;
 }
+.slideshow2 {
+  position: relative;
+  width: 900px; /* 图片宽度 */
+  height: 500px; /* 图片高度 */
+  overflow: hidden;
+}
 
+.slideshow2 img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out; /* 添加淡入淡出效果 */
+}
+
+.slideshow2 img.active {
+  opacity: 1;
+}
 .com_image{
   width: 900px;
   height: 500px;
@@ -420,4 +439,72 @@
   margin-left: auto;
   background-color: #fff;
   padding: 60px;
+}
+.guide_img{
+  width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+
+}
+
+.design_guide{
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 80px;
+}
+.design_block{
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.guide_content{
+  width: 33%;
+  margin-left: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.design_protoblock{
+  margin-top: 80px;
+}
+.proto_img1{
+  width: 1200px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+}
+.proto_text_block{
+  width: 45%;
+  color: #5F5F5F;
+}
+.proto_text{
+  margin: 20px;
+  margin-top: 80px;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+.iterate_title{
+  text-align: center;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+.iterate_text{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  color: #5F5F5F;
+}
+.iterate_image{
+  width: 900px;
+  height: 500px;
+}
+.iterate_slide{
+  margin-top: 60px;
+  max-width: 1200px;
+  justify-content: center;
+  margin-bottom: 80px
 }
