@@ -279,4 +279,11 @@ svg:hover path {
   display: flex;
   flex-direction: column; /* 垂直排列 *//* 调整间距 */
   margin: 0px;
+  align-items: center; /* 子元素垂直居中 */
+  justify-content: space-between; 
+  height: auto;
+  padding: 0;
+}
+.play_image5{
+	width: 600px;
 }
