@@ -25,33 +25,82 @@
     </header>
     <div class="body_container">
       <div class="profile row">
-        <div class="profile_element">
-          <div class="profile1">
-            <div>Hi! I'm Pei-Chi. A digital technology design graduate from National Taipei University in Taiwan, blending a solid foundation in front-end development with a flair for UI/UX design.</div>
+        <div class="profile_container">
+          <div class="left profile_element">
+            <div class="profile1">
+              <div class="profile_title">Hi! I'm Pei-Chi</div>
+              <div class="profile_content"> A digital technology design graduate from National Taipei University in Taiwan, blending a solid foundation in front-end development with a flair for UI/UX design.</div>
+            </div>
+            <div class="profile2">
+              <div class="profile_title">Tool I use</div>
+              <div class="profile_content">Figma/Photoshop<br>After effect/Illustrator/Blender<br>React Native/SwiftUI<br>Git/HTML/CSS/JS</div>
+            </div>
           </div>
-          <div class="profile2">
-            <div class="profile_title">Tool I use</div>
-            <div class="profile_content">Figma/Photoshop<br>After effect/Illustrator/Blender<br>React Native/SwiftUI</div>
+           <div class="profile_triangles">
+            <svg class="move3" width="200" height="170" viewBox="-500 0 300 300">
+              <polygon class="triangle3" stroke-linejoin="round" points="100,0 0,200 200,200" style="transform: rotate(80.021deg)"/>
+            </svg>
+            <svg class="move2" width="120" height="110" viewBox="-500 -300 300 300">
+              <polygon class="triangle2" stroke-linejoin="round" points="100,0 0,200 200,200" style="transform: rotate(40.021deg)"/>
+            </svg>
+            <svg class="move" width="170" height="160" viewBox="-300 200 300 300">
+              <polygon class="triangle1" stroke-linejoin="round" points="100,0 0,200 200,200" style="transform: rotate(120.021deg)"/>
+            </svg>
+          </div>
+        </div>
+        <div class="profile_mid">
+          <img src="./images/cursor.png" class="cursor">
+          <img class="me" src="./images/頭像_林姵綺.JPG">
+        </div>
+        <div class="profile_container">
+          <div class="right profile_element" >
+            <div class="profile1_right">
+              <div class="profile_title">What I enjoy</div>
+              <div class="profile_content">
+                I enjoy trying new things, discovering innovative products, and embracing technology. I also enjoy observing and analyzing, using logic to solve problems and help others! :)</div>
+            </div>
+            <div class="profile2_right">
+              <div class="profile_title">Out of design</div>
+              <div class="profile_content">Design by day, I unwind with games, anime, travel, food hunts, music, and sketching.</div>
+            </div>
+          </div>
+          <div class="profile_triangles">
+            <svg class="move" width="150" height="140" viewBox="-300 -50 300 300">
+              <polygon class="triangle1" stroke-linejoin="round" points="100,0 0,200 200,200" />
+            </svg>
+            <svg class="move2" width="120" height="110" viewBox="-50 -50 300 300">
+              <polygon class="triangle2" stroke-linejoin="round" points="100,0 0,200 200,200"/>
+            </svg>
+            <svg class="move3" width="160" height="150" viewBox="-300 -50 300 300">
+              <polygon class="triangle3" stroke-linejoin="round" points="100,0 0,200 200,200"/>
+            </svg>
           </div>
         </div>
         
-        <img class="me" src="./images/頭像_林姵綺.JPG">
-        <div class="profile_element" style="margin-left: 20px">
-          <div class="profile1_right">
-            <div class="profile_title">Out of design</div>
-            <div class="profile_content">Figma/Photoshop<br>After effect/Illustrator/Blender<br>React Native/SwiftUI</div>
-          </div>
-          <div class="profile2_right">
-            <div class="profile_title">Out of design</div>
-            <div class="profile_content">Figma/Photoshop<br>After effect/Illustrator/Blender<br>React Native/SwiftUI</div>
+      </div>
+      <div class="horizontal-line"></div>
+      <div class="play_block">
+        <div class="play">MY PLAYGROUND</div>
+        <div class="image_block row">
+          <img src="./images/charactor.png" class="play_image">
+          <img src="./images/9knights.gif" alt="Your GIF" class="play_image2">
+        </div>
+        <div class="image_block row">
+          <img src="./images/sticker.png" class="play_image3">
+          <div class="column">
+            <img src="./images/gameboy.png" class="play_image4">
+            <img src="./images/box.jpg" class="play_image4">
           </div>
         </div>
       </div>
-      <div class="horizontal-line"></div>
-
       <div class="contact">
         <div class="contact_title contact_word">CONTACT ME!</div>
-        <a class="contact_title contact_email" href="mailto:your-email@example.com">peggy1008123@yahoo.com.tw</a>
+        <div class="contact_way row">
+          <a class="contact_email" href="mailto:peggy1008123@yahoo.com.tw">
+          <svg  xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z" cx="50" cy="50" r="40" fill="gray"/></svg>
+        </a>
+        </div>
+        
       </div>
     </div>
     <footer class="fw">
@@ -63,5 +112,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
   </body>
   <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
+  <script src="js/about.js"></script>
 </html>
