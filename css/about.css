@@ -264,16 +264,17 @@ svg:hover path {
 }
 .right{
 	z-index: 2;
+  margin-left: 20px;
 }
 .profile_triangles {
   z-index: 1; /* 控制堆叠顺序 */
   width: 20%;
 }
 .play_image3{
-	width: 200px;
+	width: 300px;
 }
 .play_image4{
-	width: 300px;
+	width: 500px;
 }
 .column {
   display: flex;
@@ -285,5 +286,5 @@ svg:hover path {
   padding: 0;
 }
 .play_image5{
-	width: 600px;
+	width: 50%;
 }
