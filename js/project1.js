@@ -111,3 +111,15 @@ function nextSlide2() {
 // 初始显示第一张图片
 showSlide2(currentSlide2);
 
+window.addEventListener('load', function() {
+  const content = document.querySelector('.body_container');
+
+  // 模拟加载延迟（可选），为了演示效果
+  setTimeout(function() {
+    // 隐藏加载动画
+    content.style.opacity = '0';
+
+    // 显示页面内容
+    content.style.opacity = '1';
+  }, 300); // 这里模拟了2秒的延迟，实际上应该根据实际加载情况调整
+});
