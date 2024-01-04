@@ -70,3 +70,7 @@ me.addEventListener('mouseout', function() {
 });
 
 
+document.addEventListener('DOMContentLoaded', function() {
+  // 页面加载完成后触发淡入效果
+  document.querySelector('.body_container').classList.add('show');
+});

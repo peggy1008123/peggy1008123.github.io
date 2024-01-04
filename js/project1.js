@@ -110,3 +110,8 @@ function nextSlide2() {
 
 // 初始显示第一张图片
 showSlide2(currentSlide2);
+
+document.addEventListener('DOMContentLoaded', function() {
+  // 页面加载完成后触发淡入效果
+  document.querySelector('.body_container').classList.add('show');
+});

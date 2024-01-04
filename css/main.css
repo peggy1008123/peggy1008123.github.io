@@ -1,8 +1,22 @@
 a:hover, a:visited, a:link, a:active {
 text-decoration: none;
 }
+@font-face {
+  font-family: 'Allerta Stencil';
+  src: url('path/to/font.woff2') format('woff2');
+  /* 添加其他字体格式的声明，如 WOFF、TTF、EOT，以支持不同的浏览器 */
+  font-weight: normal; /* 根据需要设置字体的粗细 */
+  font-style: normal; /* 根据需要设置字体的样式 */
+}
 
-body{
+.body_container {
+  opacity: 0;
+  transition: opacity 1.0s ease-in-out; /* 过渡动画，0.5秒淡入淡出 */
+}
+
+/* 触发淡入效果的类或选择器 */
+.body_container.show {
+  opacity: 1;
 }
 .fw{
   align-items: center;

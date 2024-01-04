@@ -74,3 +74,7 @@ window.addEventListener('scroll', function() {
     header.classList.remove('scrolled');
   }
 });
+document.addEventListener('DOMContentLoaded', function() {
+  // 页面加载完成后触发淡入效果
+  document.querySelector('.body_container').classList.add('show');
+});
